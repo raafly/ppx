@@ -101,7 +101,7 @@
           </div>
           <figure class="flex order-1 md:order-2 justify-center items-center mb-12 md:mb-0">
             <div class="justify-between">
-              <div class="mockup-code">
+              <div class="mockup-code" data-tilt-scale="1.1">
                 <pre data-prefix="$" class="text-xl"><code class="text-xl">Naf'an Nur 'Alim</code></pre>
                 <pre data-prefix=">" class="text-warning text-xl"><code>Hi...</code></pre>
                 <pre
@@ -248,6 +248,13 @@
         typeSpeed: 30,
         backSpeed: 60,
         loop: true,
+      });
+    </script>
+    <script type="text/javascript" src="/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".mockup-code"), {
+        max: 25,
+        speed: 400,
       });
     </script>
   </body>

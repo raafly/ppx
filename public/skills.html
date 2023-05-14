@@ -85,7 +85,8 @@
       </div>
       <div class="mt-24 md:grid-cols-4 grid text-black justify-items-center gap-6 mb-12">
         <div
-          class="rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
+          data-tilt-scale="1.1"
+          class="tilt-card rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
         >
           <i class="fi fi-brands-figma text-6xl justify-center flex m-8"></i>
           <h1 class="mt-4 text-xl text-black font-semibold text-center group-hover:text-white duration-300">
@@ -96,7 +97,8 @@
           </p>
         </div>
         <div
-          class="rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
+          data-tilt-scale="1.1"
+          class="tilt-card rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
         >
           <i class="ri-html5-line text-6xl justify-center flex m-8"></i>
           <h1 class="mt-4 text-xl text-black font-semibold text-center group-hover:text-white duration-300">
@@ -107,7 +109,8 @@
           </p>
         </div>
         <div
-          class="rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
+          data-tilt-scale="1.1"
+          class="tilt-card rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
         >
           <i class="ri-css3-line text-6xl justify-center flex m-8"></i>
           <h1 class="mt-4 text-xl text-black font-semibold text-center group-hover:text-white duration-300">
@@ -118,7 +121,8 @@
           </p>
         </div>
         <div
-          class="rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
+          data-tilt-scale="1.1"
+          class="tilt-card rounded-md justify-items-center hover:scale-105 duration-300 hover:bg-gradient-to-tr from-red-400 to-blue-400 hover:text-white group"
         >
           <i class="fi fi-brands-js text-6xl justify-center flex m-8"></i>
           <h1 class="mt-4 text-xl text-black font-semibold text-center group-hover:text-white duration-300">
@@ -241,5 +245,12 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript" src="/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
   </body>
 </html>
