@@ -64,6 +64,7 @@
     "source-map-js": "^1.0.2",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "tilt.js": "^1.2.1",
+    "tippy.js": "^6.3.7",
     "to-regex-range": "^5.0.1",
     "typed.js": "^2.0.16",
     "util-deprecate": "^1.0.2",
