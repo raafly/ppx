@@ -44,6 +44,7 @@
     "nanoid": "^3.3.6",
     "normalize-path": "^3.0.0",
     "object-hash": "^3.0.0",
+    "particles.js": "^2.0.0",
     "path-parse": "^1.0.7",
     "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
